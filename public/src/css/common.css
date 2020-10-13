@@ -12,7 +12,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  color: #373D42;
+  color: #ffffff;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -79,6 +79,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   margin: 0 auto -51px;
   /* Pad bottom by footer height */
   padding: 0 0 75px;
+  background-color: #272833;
 }
 
 .m10h { margin: 0 10px; }
@@ -115,13 +116,13 @@ margin-left: 0;
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #373D42;}
 
 .navbar-default {
-  background-color: #ccded5;
+  background-color: #272833;
   margin: 0;
   border: 0;
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: #346464;
+  color: #ffffff;
   font-family: 'Ubuntu', sans-serif;
   padding-left: 20px;
   padding-right: 20px;
@@ -225,7 +226,7 @@ margin-left: 0;
 .status {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
-  background-color: #346464;
+  background-color: #e44c65;
   border-radius: 3px;
   margin: 15px 0;
   padding: 8px 10px;
@@ -875,4 +876,12 @@ a.v_highlight_more {
 
 .subIntro {
   font-size: 16px
+}
+
+#home > div.col-xs-12.col-md-4.col-gray > h2 > span {
+    color: #e44c65;
+}
+
+.table>thead>tr>th {
+    color: #ffffff;
 }
